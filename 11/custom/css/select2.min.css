@@ -631,7 +631,7 @@
 }
 
 
-body, .mb-2 {
+body {
 	
 	
 	
@@ -738,8 +738,8 @@ overflow: hidden;
 
 
 .mb-2 {  
-height: 14vh;
-     
+      border-bottom-left-radius: 30px;
+	   border-bottom-right-radius: 30px;
 }
 
 
@@ -1013,7 +1013,7 @@ background-repeat: no-repeat;
 
 
 
-h1, h2, h4, h5, a {
+h1, h2, h5, a {
 	
 	color:white; 
 	
@@ -1021,9 +1021,9 @@ h1, h2, h4, h5, a {
 	}
 
 	
-h2, p{
+h2, p, h4{
 	
-	color:white; 
+	color:black; 
 	
 	
 	}
@@ -1045,8 +1045,6 @@ h2, p{
   display: inline-block !important;
   border-radius: 90px;
 }
-
-
 
 
 .icon-user {
