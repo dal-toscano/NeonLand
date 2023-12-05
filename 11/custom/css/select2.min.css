@@ -1013,7 +1013,7 @@ background-repeat: no-repeat;
 
 
 
-h1, h2, h5, a {
+h2, h5, a {
 	
 	color:white; 
 	
@@ -1021,16 +1021,29 @@ h1, h2, h5, a {
 	}
 
 	
-h2, p, h4{
+h2, h4{
 	
-	color:black; 
+	color:black !important; 
 	
 	
 	}
 
 
+.title h1, .display-4 {
+  font-family:  cursive;
+        -webkit-text-fill-color: whitesmoke; /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+        text-transform: uppercase;
+text-shadow: 2px 2px white, 3px 3px black;
+}
 
-
+.title span, i, a, p {
+	
+	color:white; 
+	
+	
+	}
 
 
 
@@ -1192,7 +1205,10 @@ zXz:focus {
 */
 
 
+.display-3 {
 
+	
+}
 
 
 
