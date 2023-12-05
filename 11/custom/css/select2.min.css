@@ -639,7 +639,11 @@ background-image: linear-gradient(to bottom, #e56300, #e26400, #e06500, #dd6500,
 
 }
 
-
+footer {
+	      border-top-left-radius: 30px;
+	   border-top-right-radius: 30px
+	
+}
 
 
 
@@ -1084,62 +1088,10 @@ text-shadow: 2px 2px black, 1px 1px black;
     vertical-align: top;
     text-align: center;
 }
-.icon {
-  display: inline-block;
-  position: relative;
-  text-align: center;
-}
 
-.icon-l i {
-  width: 43px;
-  line-height: 43px;
-  font-weight: 600;
-  font-size: 22px;
-}
-.color-white {
-  color: #FFF !important;
-}
-/*Icons*/
-.icon:hover {
-  color: #FFF;
-}
 
-.icon {
-  display: inline-block;
-  position: relative;
-  text-align: center;
-}
 
-.icon-xxs i {
-  width: 32px;
-  line-height: 32px;
-  font-size: 13px;
-}
 
-.icon-xs i {
-  width: 38px;
-  line-height: 38px;
-  font-size: 14px;
-}
-
-.icon-s i {
-  width: 40px;
-  line-height: 40px;
-  font-size: 15px;
-}
-
-.icon-m i {
-  width: 45px;
-  line-height: 45px;
-  font-size: 16px;
-}
-
-.icon-l i {
-  width: 43px;
-  line-height: 43px;
-  font-weight: 600;
-  font-size: 22px;
-}
 
 .icon-xl i {
   width: 55px;
@@ -1147,16 +1099,9 @@ text-shadow: 2px 2px black, 1px 1px black;
   font-size: 18px;
 }
 
-.icon-xxl i {
-  width: 60px;
-  line-height: 60px;
-  font-size: 19px;
-}
 
-.icon-center {
-  display: block;
-  margin: 0 auto;
-}
+
+
 
 
 
