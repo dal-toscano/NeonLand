@@ -467,10 +467,106 @@ Coded by www.creative-tim.com
             <div class="modal-body p-0">
                 <div class="card">
                     <div class="card-header bg-white text-center">
-                        
-                        	<h3 class="font-700 text-center" style="color: ">Allergy</h3>
-										<img class="rounded img-center" src="https://www.ppc.nl/wp-content/uploads/allergenen-overzicht-480x338.png" importance="high" title="Allergen icons set vector image" alt="Allergen icons set">
-<script type="text/javascript" src="https://form.jotform.com/jsform/233372927028358"></script>
+					
+					
+    <iframe
+      id="JotFormIFrame-233377425078361"
+      title="Restaurant Table Reservation Form"
+      onload="window.parent.scrollTo(0,0)"
+      allowtransparency="true"
+      allowfullscreen="true"
+      allow="geolocation; microphone; camera"
+      src="https://form.jotform.com/233377425078361"
+      frameborder="0"
+      style="min-width:100%;max-width:100%;height:539px;border:none;"
+      scrolling="no"
+    >
+    </iframe>
+    <script type="text/javascript">
+    var ifr = document.getElementById("JotFormIFrame-233377425078361");
+    if (ifr) {
+      var src = ifr.src;
+      var iframeParams = [];
+      if (window.location.href && window.location.href.indexOf("?") > -1) {
+        iframeParams = iframeParams.concat(window.location.href.substr(window.location.href.indexOf("?") + 1).split('&'));
+      }
+      if (src && src.indexOf("?") > -1) {
+        iframeParams = iframeParams.concat(src.substr(src.indexOf("?") + 1).split("&"));
+        src = src.substr(0, src.indexOf("?"))
+      }
+      iframeParams.push("isIframeEmbed=1");
+      ifr.src = src + "?" + iframeParams.join('&');
+    }
+    window.handleIFrameMessage = function(e) {
+      if (typeof e.data === 'object') { return; }
+      var args = e.data.split(":");
+      if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); }
+      if (!iframe) { return; }
+      switch (args[0]) {
+        case "scrollIntoView":
+          iframe.scrollIntoView();
+          break;
+        case "setHeight":
+          iframe.style.height = args[1] + "px";
+          if (!isNaN(args[1]) && parseInt(iframe.style.minHeight) > parseInt(args[1])) {
+            iframe.style.minHeight = args[1] + "px";
+          }
+          break;
+        case "collapseErrorPage":
+          if (iframe.clientHeight > window.innerHeight) {
+            iframe.style.height = window.innerHeight + "px";
+          }
+          break;
+        case "reloadPage":
+          window.location.reload();
+          break;
+        case "loadScript":
+          if( !window.isPermitted(e.origin, ['jotform.com', 'jotform.pro']) ) { break; }
+          var src = args[1];
+          if (args.length > 3) {
+              src = args[1] + ':' + args[2];
+          }
+          var script = document.createElement('script');
+          script.src = src;
+          script.type = 'text/javascript';
+          document.body.appendChild(script);
+          break;
+        case "exitFullscreen":
+          if      (window.document.exitFullscreen)        window.document.exitFullscreen();
+          else if (window.document.mozCancelFullScreen)   window.document.mozCancelFullScreen();
+          else if (window.document.mozCancelFullscreen)   window.document.mozCancelFullScreen();
+          else if (window.document.webkitExitFullscreen)  window.document.webkitExitFullscreen();
+          else if (window.document.msExitFullscreen)      window.document.msExitFullscreen();
+          break;
+      }
+      var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+      if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+        var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)};
+        iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*");
+      }
+    };
+    window.isPermitted = function(originUrl, whitelisted_domains) {
+      var url = document.createElement('a');
+      url.href = originUrl;
+      var hostname = url.hostname;
+      var result = false;
+      if( typeof hostname !== 'undefined' ) {
+        whitelisted_domains.forEach(function(element) {
+            if( hostname.slice((-1 * element.length - 1)) === '.'.concat(element) ||  hostname === element ) {
+                result = true;
+            }
+        });
+        return result;
+      }
+    };
+    if (window.addEventListener) {
+      window.addEventListener("message", handleIFrameMessage, false);
+    } else if (window.attachEvent) {
+      window.attachEvent("onmessage", handleIFrameMessage);
+    }
+    </script>
+										
+</a>
                         
                                             </div>
                     
@@ -496,6 +592,8 @@ Coded by www.creative-tim.com
 
 <div class="modal fade" id="modal-contact" tabindex="-1" role="dialog" aria-labelledby="modal-form" aria-hidden="true">
     <div class="modal-dialog modal- modal-dialog-centered modal-lg" role="document">
+	
+	
 <div class="modal-content">
             <div class="modal-header">
                 <h5 id="modalRestaurantTitle" class="modal-title notranslate">Contact us</h5>
@@ -504,13 +602,7 @@ Coded by www.creative-tim.com
                 </button>
             </div>
                 <div class="card">
-                    <div class="card-header bg-white text-center">
-                        
-                        	<h3 class="font-700 text-center" style="color: ">Allergy</h3>
-										<img class="rounded img-center" src="https://www.ppc.nl/wp-content/uploads/allergenen-overzicht-480x338.png" title="Allergen icons set vector image" alt="Allergen icons set">
-
-                        
-                                            </div>
+                   
 										
 											<div class="card mb-0 col-md-6">
                 <div class="content mt-0 mb-0">
@@ -521,9 +613,6 @@ Coded by www.creative-tim.com
                         <div class="col-9 pt-3 pl-0">
 						
                             <h4 class="font-16" style="color: ">@Instagram</h4>
-                            <p class="mt-n1 line-height-m color-gray2-dark" style="color: ">
-                                مثل المايونيز
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -538,16 +627,121 @@ Coded by www.creative-tim.com
                         <div class="col-9 pt-3 pl-0">
 						
                             <h4 class="font-16" style="color: ">#Facebook</h4>
-                            <p class="mt-n1 line-height-m color-gray2-dark" style="color: ">
-                                مثل المايونيز
-                            </p>
-                        </div>
                     </div>
                 </div>
             </div>
-											
-											
+				</div>							
+				
+			<div class="card mb-0 col-md-6">
+                <div class="content mt-0 mb-0">
+                    <div class="row justify-content-center mb-2">
+                        <div class="col-3 mt-3">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3046/3046129.png  " class="rounded-xl shadow-x2l  mx-auto mt-1" width="65">
+                        </div>
+                        <div class="col-9 pt-3 pl-0">
+						
+                            <h4 class="font-16" style="color: ">#TikTok</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>							
                     
+    <iframe
+      id="JotFormIFrame-233377034019352"
+      title="Lime Theme Contact Us Form"
+      onload="window.parent.scrollTo(0,0)"
+      allowtransparency="true"
+      allowfullscreen="true"
+      allow="geolocation; microphone; camera"
+      src="https://form.jotform.com/233377034019352"
+      frameborder="0"
+      style="min-width:100%;max-width:100%;height:539px;border:none;"
+      scrolling="no"
+    >
+    </iframe>
+    <script type="text/javascript">
+    var ifr = document.getElementById("JotFormIFrame-233377034019352");
+    if (ifr) {
+      var src = ifr.src;
+      var iframeParams = [];
+      if (window.location.href && window.location.href.indexOf("?") > -1) {
+        iframeParams = iframeParams.concat(window.location.href.substr(window.location.href.indexOf("?") + 1).split('&'));
+      }
+      if (src && src.indexOf("?") > -1) {
+        iframeParams = iframeParams.concat(src.substr(src.indexOf("?") + 1).split("&"));
+        src = src.substr(0, src.indexOf("?"))
+      }
+      iframeParams.push("isIframeEmbed=1");
+      ifr.src = src + "?" + iframeParams.join('&');
+    }
+    window.handleIFrameMessage = function(e) {
+      if (typeof e.data === 'object') { return; }
+      var args = e.data.split(":");
+      if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); }
+      if (!iframe) { return; }
+      switch (args[0]) {
+        case "scrollIntoView":
+          iframe.scrollIntoView();
+          break;
+        case "setHeight":
+          iframe.style.height = args[1] + "px";
+          if (!isNaN(args[1]) && parseInt(iframe.style.minHeight) > parseInt(args[1])) {
+            iframe.style.minHeight = args[1] + "px";
+          }
+          break;
+        case "collapseErrorPage":
+          if (iframe.clientHeight > window.innerHeight) {
+            iframe.style.height = window.innerHeight + "px";
+          }
+          break;
+        case "reloadPage":
+          window.location.reload();
+          break;
+        case "loadScript":
+          if( !window.isPermitted(e.origin, ['jotform.com', 'jotform.pro']) ) { break; }
+          var src = args[1];
+          if (args.length > 3) {
+              src = args[1] + ':' + args[2];
+          }
+          var script = document.createElement('script');
+          script.src = src;
+          script.type = 'text/javascript';
+          document.body.appendChild(script);
+          break;
+        case "exitFullscreen":
+          if      (window.document.exitFullscreen)        window.document.exitFullscreen();
+          else if (window.document.mozCancelFullScreen)   window.document.mozCancelFullScreen();
+          else if (window.document.mozCancelFullscreen)   window.document.mozCancelFullScreen();
+          else if (window.document.webkitExitFullscreen)  window.document.webkitExitFullscreen();
+          else if (window.document.msExitFullscreen)      window.document.msExitFullscreen();
+          break;
+      }
+      var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+      if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+        var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)};
+        iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*");
+      }
+    };
+    window.isPermitted = function(originUrl, whitelisted_domains) {
+      var url = document.createElement('a');
+      url.href = originUrl;
+      var hostname = url.hostname;
+      var result = false;
+      if( typeof hostname !== 'undefined' ) {
+        whitelisted_domains.forEach(function(element) {
+            if( hostname.slice((-1 * element.length - 1)) === '.'.concat(element) ||  hostname === element ) {
+                result = true;
+            }
+        });
+        return result;
+      }
+    };
+    if (window.addEventListener) {
+      window.addEventListener("message", handleIFrameMessage, false);
+    } else if (window.attachEvent) {
+      window.attachEvent("onmessage", handleIFrameMessage);
+    }
+    </script>
                 </div>
         </div>
 
@@ -566,7 +760,7 @@ Coded by www.creative-tim.com
     <div class="modal-dialog modal- modal-dialog-centered modal-lg" role="document">
 <div class="modal-content">
             <div class="modal-header">
-                <h5 id="modalRestaurantTitle" class="modal-title notranslate">Allergy</h5>
+                <h5 id="modalRestaurantTitle" class="modal-title notranslate">Allergie</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
@@ -575,7 +769,7 @@ Coded by www.creative-tim.com
                 <div class="card">
                     <div class="card-header bg-white text-center">
                         
-                        	<h3 class="font-700 text-center" style="color: ">Allergy</h3>
+                        	<h3 class="font-700 text-center" style="color: ">Allergie</h3>
 										<img class="rounded img-center" src="https://www.ppc.nl/wp-content/uploads/allergenen-overzicht-480x338.png" importance="high" title="Allergen icons set vector image" alt="Allergen icons set">
 
                         
@@ -593,7 +787,34 @@ Coded by www.creative-tim.com
 </div>
 
 
+<div class="modal fade" id="modal-about" tabindex="-1" role="dialog" aria-labelledby="modal-form" aria-hidden="true">
+    <div class="modal-dialog modal- modal-dialog-centered modal-lg" role="document">
+<div class="modal-content">
+            <div class="modal-header">
+                <h5 id="modalRestaurantTitle" class="modal-title notranslate">Over ons</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body p-0">
+                <div class="card">
+                    <div class="card-header bg-white text-center">
+                        
+                        	<h3 class="font-700 text-center" style="color: ">Over ons</h3>
+										<p>Schrijf hier je tekst</p>
+<img class="rounded img-center"  src="https://restro.infotechgravity.com/storage/app/public/admin-assets/images/banners/banner-64da0184dabd8.webp" loading="lazy">                        
+                                            </div>
+                    
+                </div>
+            </div>
+        </div>
 
+
+
+
+
+    </div>
+</div>
 
 
 
@@ -690,7 +911,7 @@ Coded by www.creative-tim.com
     </div>
 
 
-                        <p><i class="ni ni-watch-time"></i>  <span class="opened_time">Opened until Tue 23:58</span>  |   <i class="ni ni-pin-3"></i></i> <a target="_blank" href="https://www.google.com/maps/search/?api=1&amp;query=6+Yukon+Drive+Raeford%2C+NC+28376"><span class="notranslate">6 Yukon Drive Raeford, NC 28376</span></a>  |   <i class="ni ni-mobile-button"></i> <a href="tel:(530) 625-9694">(530) 625-9694 </a> </p>
+                        <p><i class="fa fa-clock-o" aria-hidden="true"></i>  <span class="opened_time">Opened until Tue 23:58</span>  |   <i class="fa fa-map-marker" aria-hidden="true"></i></i> <a target="_blank" href="https://www.google.com/maps/search/?api=1&amp;query=6+Yukon+Drive+Raeford%2C+NC+28376"><span class="notranslate">6 Yukon Drive Raeford, NC 28376</span></a>  |   <i class="fa fa-mobile" aria-hidden="true"></i> <a href="tel:(530) 625-9694">0(20) 625-9694 </a> </p>
                     </div>
                 </div>
             </div>
@@ -720,7 +941,7 @@ Coded by www.creative-tim.com
         </div>
     </div>
 
-                        <p><i class="ni ni-watch-time"></i>  <span class="opened_time">Opened until Tue 23:58</span>    <i class="ni ni-pin-3"></i></i> <a target="_blank" href="https://www.google.com/maps/search/?api=1&amp;query=6+Yukon+Drive+Raeford%2C+NC+28376">6 Yukon Drive Raeford, NC 28376</a>  |   <i class="ni ni-mobile-button"></i> <a href="tel:(530) 625-9694">(530) 625-9694 </a> </p>
+                        <p><i class="fa fa-clock-o" aria-hidden="true"></i>  <span class="opened_time">Opened until Tue 23:58</span>    <i class="fa fa-map-marker" aria-hidden="true"></i></i> <a target="_blank" href="https://www.google.com/maps/search/?api=1&amp;query=6+Yukon+Drive+Raeford%2C+NC+28376">6 Yukon Drive Raeford, NC 28376</a>  |   <i class="fa fa-mobile" aria-hidden="true"></i> <a href="tel:(530) 625-9694">(530) 625-9694 </a> </p>
                     </div>
                 </div>
             </div>
@@ -778,7 +999,7 @@ Coded by www.creative-tim.com
                                         <img alt="Salads" src="https://cdn-icons-png.flaticon.com/512/1586/1586066.png">
 
                                     </a>
-                                    <p style="cursor: pointer;" class="font-600 font-13 mt-2">Allergy</p>
+                                    <p style="cursor: pointer;" class="font-600 font-13 mt-2">Allergie</p>
                                 </div>
                             
 
@@ -799,15 +1020,18 @@ Coded by www.creative-tim.com
                                     <p style="cursor: pointer;" class="font-600 font-13 mt-2">Direction
 </p>
                                 </div><div class="line123  mt-3 mb-n1"> &nbsp;</div>
-								<div class="icon-user itemCatTop">
+								<div class="icon-user itemCatTop" data-toggle="modal" data-target="#modal-about">
                                     <a style="cursor: pointer;" class="shadow-xl icon icon-l rounded-xl color-white icon-border color-yellow2-dark">
                                         <img src="https://cdn-icons-png.flaticon.com/512/189/189664.png" alt="Salads">
                                     </a>
-                                    <p style="cursor: pointer;" class="font-600 font-13 mt-2">About us</p>
+                                    <p style="cursor: pointer;" class="font-600 font-13 mt-2">OVER ONS</p>
                                 </div>
                             
                                                                         </div>
-
+<div class="col-md-12">
+            <ul class="list-inline ">
+                                                                                            </ul>
+        </div>
 
 
 
