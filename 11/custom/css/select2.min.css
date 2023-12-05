@@ -696,7 +696,13 @@ overflow: hidden;
    .col-sm-6{position:relative;width:49%  !important;padding-right:15px;padding-left:15px}
 
 
-
+.text3 {
+		    text-align: justify !important;
+max-width:30px !important;
+	   margin: auto;
+  display: block;
+	 
+}
 
 
 
@@ -746,7 +752,6 @@ overflow: hidden;
 .nav-item-category{
 	padding-right:5px !important;  
 	text-align: center;
-	   white-space: nowrap;
 	}
 
 .nav nav-pills bg-white mb-2{
@@ -1015,6 +1020,8 @@ background-repeat: no-repeat;
 
 
 
+
+
 h1, h2, h5 {
 	
 	color:white; 
@@ -1209,9 +1216,9 @@ zXz:focus {
 
 .text3 {
 		    text-align: justify !important;
-   white-space: nowrap;
-     text-align: center;
-	 
+
+	   margin: auto;
+  display: block;
 	 
 }
 
