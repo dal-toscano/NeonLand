@@ -1052,6 +1052,8 @@ a:hover {
  }
  .tabbable .nav-pills .nav-link {
    white-space: nowrap;
+     margin: auto;
+  display: block;
  }
 
  .callOutShoppingButtonBottom {

@@ -744,7 +744,9 @@ overflow: hidden;
 
 
 .nav-item-category{
-	padding-right:5px !important;
+	padding-right:5px !important;  
+	text-align: center;
+	   white-space: nowrap;
 	}
 
 .nav nav-pills bg-white mb-2{
@@ -1013,7 +1015,7 @@ background-repeat: no-repeat;
 
 
 
-h2, h5, a {
+h1, h2, h5 {
 	
 	color:white; 
 	
@@ -1021,7 +1023,7 @@ h2, h5, a {
 	}
 
 	
-h2, h4{
+h2, h4, p{
 	
 	color:black !important; 
 	
@@ -1034,8 +1036,7 @@ h2, h4{
         -webkit-text-fill-color: whitesmoke; /* Will override color (regardless of order) */
         -webkit-text-stroke-width: 2px;
         -webkit-text-stroke-color: black;
-        text-transform: uppercase;
-text-shadow: 2px 2px white, 3px 3px black;
+text-shadow: 2px 2px black, 3px 3px black;
 }
 
 .title span, i, a, p {
@@ -1175,6 +1176,7 @@ text-shadow: 2px 2px white, 3px 3px black;
 }
 .font-600 {
   font-weight: 900 !important;  color: #003049;
+
 }
 .font-13 {
   font-size: 13px !important;
@@ -1205,9 +1207,12 @@ zXz:focus {
 */
 
 
-.display-3 {
-
-	
+.text3 {
+		    text-align: justify !important;
+   white-space: nowrap;
+     text-align: center;
+	 
+	 
 }
 
 
