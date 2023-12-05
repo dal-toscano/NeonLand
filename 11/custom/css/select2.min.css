@@ -1039,7 +1039,6 @@ h2, h4, p, h5{
 
 
 .title h1, .display-4 {
-  font-family:  cursive;
         -webkit-text-fill-color: whitesmoke; /* Will override color (regardless of order) */
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: black;
