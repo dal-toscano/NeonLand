@@ -697,7 +697,7 @@ overflow: hidden;
 }
 
 @media only screen and (max-width:  575px){
-   .col-sm-6{position:relative;width:49%  !important;padding-right:15px;padding-left:15px}
+   .col-sm-6{position:relative;width:50%  !important;padding-right:15px;padding-left:15px}
 
 
 .text3 {
@@ -800,7 +800,7 @@ width:100%;
   
   /* Add the blur effect */
   filter: blur(1px);
-  -webkit-filter: blur(1px);
+  -webkit-filter: blur(3px);
   
   /* Full height */
   /* Center and scale the image nicely */
@@ -1083,7 +1083,7 @@ text-shadow: 2px 2px black, 1px 1px black;
     width: 600px;
     padding: 5px;
     margin: 5px;
-    white-space: normal;
+    white-space: nowrap;
     line-height: 1.6;
     vertical-align: top;
     text-align: center;
@@ -1140,9 +1140,9 @@ text-shadow: 2px 2px black, 1px 1px black;
 
 
 
-zXz:focus {
+.zXz {
 	
-	
+	text-align: center !important;
 	
   color: red;
 }
